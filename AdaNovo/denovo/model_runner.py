@@ -14,10 +14,10 @@ import torch
 from depthcharge.data import AnnotatedSpectrumIndex, SpectrumIndex
 from pytorch_lightning.strategies import DDPStrategy
 
-import utils
-from data import ms_io
-from denovo.dataloaders import DeNovoDataModule
-from denovo.model import Spec2Pep
+from .. import utils
+from ..data import ms_io
+from ..denovo.dataloaders import DeNovoDataModule
+from ..denovo.model import Spec2Pep
 
 
 logger = logging.getLogger("adanovo")

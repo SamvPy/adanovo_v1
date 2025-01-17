@@ -1,0 +1,60 @@
+2025-01-17 11:09:09,505 DEBUG [adanovo/MainProcess] adanovo.main : mode = denovo
+2025-01-17 11:09:09,506 DEBUG [adanovo/MainProcess] adanovo.main : model = /home/samva/Doctorate/data_directory/denovo_project/checkpoints/adanovo/ckpt_1.ckpt
+2025-01-17 11:09:09,506 DEBUG [adanovo/MainProcess] adanovo.main : peak_path = /home/samva/Doctorate/data_directory/tests/mgf_reformatted/test1.mgf
+2025-01-17 11:09:09,506 DEBUG [adanovo/MainProcess] adanovo.main : peak_path_val = None
+2025-01-17 11:09:09,506 DEBUG [adanovo/MainProcess] adanovo.main : config = /home/samva/Doctorate/DeNovo_Benchmark/source_code/adanovo_v1/config.yaml
+2025-01-17 11:09:09,506 DEBUG [adanovo/MainProcess] adanovo.main : output = case1
+2025-01-17 11:09:09,506 DEBUG [adanovo/MainProcess] adanovo.main : random_seed = 454
+2025-01-17 11:09:09,506 DEBUG [adanovo/MainProcess] adanovo.main : train_from_scratch = True
+2025-01-17 11:09:09,506 DEBUG [adanovo/MainProcess] adanovo.main : model_save_folder_path = saved_model/
+2025-01-17 11:09:09,506 DEBUG [adanovo/MainProcess] adanovo.main : max_epochs = 30
+2025-01-17 11:09:09,506 DEBUG [adanovo/MainProcess] adanovo.main : warmup_iters = 100000
+2025-01-17 11:09:09,506 DEBUG [adanovo/MainProcess] adanovo.main : max_iters = 600000
+2025-01-17 11:09:09,506 DEBUG [adanovo/MainProcess] adanovo.main : train_batch_size = 32
+2025-01-17 11:09:09,506 DEBUG [adanovo/MainProcess] adanovo.main : predict_batch_size = 1024
+2025-01-17 11:09:09,506 DEBUG [adanovo/MainProcess] adanovo.main : residues = {'G': 57.021464, 'A': 71.037114, 'S': 87.032028, 'P': 97.052764, 'V': 99.068414, 'T': 101.04767, 'C(+57.02)': 160.030649, 'L': 113.084064, 'I': 113.084064, 'N': 114.042927, 'D': 115.026943, 'Q': 128.058578, 'K': 128.094963, 'E': 129.042593, 'M': 131.040485, 'H': 137.058912, 'F': 147.068414, 'R': 156.101111, 'Y': 163.063329, 'W': 186.079313, 'M(+15.99)': 147.0354, 'N(+.98)': 115.026943, 'Q(+.98)': 129.042594, '+42.011': 42.010565, '+43.006': 43.005814, '-17.027': -17.026549, '+43.006-17.027': 25.980265}
+2025-01-17 11:09:09,506 DEBUG [adanovo/MainProcess] adanovo.main : ptm_types = ['M(+15.99)', 'N(+.98)', 'Q(+.98)']
+2025-01-17 11:09:09,506 DEBUG [adanovo/MainProcess] adanovo.main : n_peaks = 150
+2025-01-17 11:09:09,506 DEBUG [adanovo/MainProcess] adanovo.main : min_mz = 50.0
+2025-01-17 11:09:09,506 DEBUG [adanovo/MainProcess] adanovo.main : max_mz = 2500.0
+2025-01-17 11:09:09,506 DEBUG [adanovo/MainProcess] adanovo.main : min_intensity = 0.01
+2025-01-17 11:09:09,506 DEBUG [adanovo/MainProcess] adanovo.main : remove_precursor_tol = 2.0
+2025-01-17 11:09:09,506 DEBUG [adanovo/MainProcess] adanovo.main : max_charge = 10
+2025-01-17 11:09:09,506 DEBUG [adanovo/MainProcess] adanovo.main : precursor_mass_tol = 50.0
+2025-01-17 11:09:09,506 DEBUG [adanovo/MainProcess] adanovo.main : isotope_error_range = (0, 1)
+2025-01-17 11:09:09,506 DEBUG [adanovo/MainProcess] adanovo.main : min_peptide_len = 6
+2025-01-17 11:09:09,506 DEBUG [adanovo/MainProcess] adanovo.main : dim_model = 512
+2025-01-17 11:09:09,507 DEBUG [adanovo/MainProcess] adanovo.main : n_head = 8
+2025-01-17 11:09:09,507 DEBUG [adanovo/MainProcess] adanovo.main : dim_feedforward = 1024
+2025-01-17 11:09:09,507 DEBUG [adanovo/MainProcess] adanovo.main : n_layers = 9
+2025-01-17 11:09:09,507 DEBUG [adanovo/MainProcess] adanovo.main : dropout = 0.0
+2025-01-17 11:09:09,507 DEBUG [adanovo/MainProcess] adanovo.main : dim_intensity = None
+2025-01-17 11:09:09,507 DEBUG [adanovo/MainProcess] adanovo.main : custom_encoder = None
+2025-01-17 11:09:09,507 DEBUG [adanovo/MainProcess] adanovo.main : max_length = 100
+2025-01-17 11:09:09,507 DEBUG [adanovo/MainProcess] adanovo.main : n_log = 1
+2025-01-17 11:09:09,507 DEBUG [adanovo/MainProcess] adanovo.main : tb_summarywriter = None
+2025-01-17 11:09:09,507 DEBUG [adanovo/MainProcess] adanovo.main : learning_rate = 0.0005
+2025-01-17 11:09:09,507 DEBUG [adanovo/MainProcess] adanovo.main : weight_decay = 1e-05
+2025-01-17 11:09:09,507 DEBUG [adanovo/MainProcess] adanovo.main : n_beams = 5
+2025-01-17 11:09:09,507 DEBUG [adanovo/MainProcess] adanovo.main : top_match = 1
+2025-01-17 11:09:09,507 DEBUG [adanovo/MainProcess] adanovo.main : logger = None
+2025-01-17 11:09:09,507 DEBUG [adanovo/MainProcess] adanovo.main : num_sanity_val_steps = 0
+2025-01-17 11:09:09,507 DEBUG [adanovo/MainProcess] adanovo.main : save_model = True
+2025-01-17 11:09:09,507 DEBUG [adanovo/MainProcess] adanovo.main : save_weights_only = True
+2025-01-17 11:09:09,507 DEBUG [adanovo/MainProcess] adanovo.main : every_n_train_steps = 50000
+2025-01-17 11:09:09,507 DEBUG [adanovo/MainProcess] adanovo.main : no_gpu = False
+2025-01-17 11:09:09,507 DEBUG [adanovo/MainProcess] adanovo.main : n_workers = 32
+2025-01-17 11:09:09,507 DEBUG [adanovo/MainProcess] adanovo.main : s1 = 0.3
+2025-01-17 11:09:09,507 DEBUG [adanovo/MainProcess] adanovo.main : s2 = 0.1
+2025-01-17 11:09:09,507 INFO [adanovo/MainProcess] adanovo.main : Predict peptide sequences with Adanovo.
+2025-01-17 11:09:09,620 DEBUG [fsspec.local/MainProcess] local.__init__ : open file: /home/samva/Doctorate/data_directory/denovo_project/checkpoints/adanovo/ckpt_1.ckpt
+2025-01-17 11:09:09,888 INFO [depthcharge.data.hdf5/MainProcess] hdf5.__init__ : Reading 1 files...
+2025-01-17 11:09:09,896 WARNING [py.warnings/MainProcess] warnings._showwarnmsg : /home/samva/miniconda3/envs/adanovo_env/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/accelerator_connector.py:589: LightningDeprecationWarning: The Trainer argument `auto_select_gpus` has been deprecated in v1.9.0 and will be removed in v2.0.0. Please use the function `pytorch_lightning.accelerators.find_usable_cuda_devices` instead.
+  rank_zero_deprecation(
+
+2025-01-17 11:09:15,352 WARNING [py.warnings/MainProcess] warnings._showwarnmsg : /home/samva/miniconda3/envs/adanovo_env/lib/python3.10/site-packages/torch/nn/modules/transformer.py:380: UserWarning: The PyTorch API of nested tensors is in prototype stage and will change in the near future. (Triggered internally at ../aten/src/ATen/NestedTensorImpl.cpp:178.)
+  output = torch._nested_tensor_from_mask(output, src_key_padding_mask.logical_not(), mask_check=False)
+
+2025-01-17 11:09:15,391 WARNING [py.warnings/MainProcess] warnings._showwarnmsg : /home/samva/miniconda3/envs/adanovo_env/lib/python3.10/site-packages/torch/nn/functional.py:5076: UserWarning: Support for mismatched key_padding_mask and attn_mask is deprecated. Use same type for both instead.
+  warnings.warn(
+

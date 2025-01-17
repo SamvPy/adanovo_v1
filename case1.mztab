@@ -1,0 +1,71 @@
+MTD	mzTab-version	1.0.0
+MTD	mzTab-mode	Summary
+MTD	mzTab-type	Identification
+MTD	description	Adanovo identification file case1
+MTD	software[1]	[MS, MS:1003281, Adanovo]
+MTD	psm_search_engine_score[1]	[MS, MS:1001143, search engine specific score for PSMs, ]
+MTD	fixed_mod[1]	[MS, MS:1002453, No fixed modifications searched, ]
+MTD	variable_mod[1]	[UNIMOD, UNIMOD:385, Ammonia-loss, ]
+MTD	variable_mod[1]-site	N-term
+MTD	variable_mod[2]	[UNIMOD, UNIMOD:1, Acetyl, ]
+MTD	variable_mod[2]-site	N-term
+MTD	variable_mod[3]	[UNIMOD, UNIMOD:5, Carbamyl, ]
+MTD	variable_mod[3]-site	N-term
+MTD	software[1]-setting[1]	model = /home/samva/Doctorate/data_directory/denovo_project/checkpoints/adanovo/ckpt_1.ckpt
+MTD	software[1]-setting[2]	config_filename = /home/samva/Doctorate/DeNovo_Benchmark/source_code/adanovo_v1/config.yaml
+MTD	software[1]-setting[3]	random_seed = 454
+MTD	software[1]-setting[4]	train_from_scratch = True
+MTD	software[1]-setting[5]	model_save_folder_path = saved_model/
+MTD	software[1]-setting[6]	max_epochs = 30
+MTD	software[1]-setting[7]	warmup_iters = 100000
+MTD	software[1]-setting[8]	max_iters = 600000
+MTD	software[1]-setting[9]	train_batch_size = 32
+MTD	software[1]-setting[10]	predict_batch_size = 1024
+MTD	software[1]-setting[12]	ptm_types = ['M(+15.99)', 'N(+.98)', 'Q(+.98)']
+MTD	software[1]-setting[13]	n_peaks = 150
+MTD	software[1]-setting[14]	min_mz = 50.0
+MTD	software[1]-setting[15]	max_mz = 2500.0
+MTD	software[1]-setting[16]	min_intensity = 0.01
+MTD	software[1]-setting[17]	remove_precursor_tol = 2.0
+MTD	software[1]-setting[18]	max_charge = 10
+MTD	software[1]-setting[19]	precursor_mass_tol = 50.0
+MTD	software[1]-setting[20]	isotope_error_range = (0, 1)
+MTD	software[1]-setting[21]	min_peptide_len = 6
+MTD	software[1]-setting[22]	dim_model = 512
+MTD	software[1]-setting[23]	n_head = 8
+MTD	software[1]-setting[24]	dim_feedforward = 1024
+MTD	software[1]-setting[25]	n_layers = 9
+MTD	software[1]-setting[26]	dropout = 0.0
+MTD	software[1]-setting[27]	dim_intensity = None
+MTD	software[1]-setting[28]	custom_encoder = None
+MTD	software[1]-setting[29]	max_length = 100
+MTD	software[1]-setting[30]	n_log = 1
+MTD	software[1]-setting[31]	tb_summarywriter = None
+MTD	software[1]-setting[32]	learning_rate = 0.0005
+MTD	software[1]-setting[33]	weight_decay = 1e-05
+MTD	software[1]-setting[34]	n_beams = 5
+MTD	software[1]-setting[35]	top_match = 1
+MTD	software[1]-setting[36]	logger = None
+MTD	software[1]-setting[37]	num_sanity_val_steps = 0
+MTD	software[1]-setting[38]	save_model = True
+MTD	software[1]-setting[39]	save_weights_only = True
+MTD	software[1]-setting[40]	every_n_train_steps = 50000
+MTD	software[1]-setting[41]	no_gpu = False
+MTD	software[1]-setting[42]	n_workers = 32
+MTD	ms_run[1]-location	file:///home/samva/Doctorate/data_directory/tests/mgf_reformatted/test1.mgf
+PSH	sequence	PSM_ID	accession	unique	database	database_version	search_engine	search_engine_score[1]	modifications	retention_time	charge	exp_mass_to_charge	calc_mass_to_charge	spectra_ref	pre	post	start	end	opt_ms_run[1]_aa_scores
+PSM	LGEHNLNVLEGNEGAFLNGVK	1	null	null	null	null	[MS, MS:1003281, Adanovo]	0.8681936746090121	null	null	3.0	742.4048	742.0500747002131	ms_run[1]:index=0	null	null	null	null	0.93136,0.92880,0.93003,0.93374,0.93409,0.93409,0.43418,0.93409,0.88660,0.84220,0.93397,0.93375,0.93410,0.48743,0.65993,0.93397,0.85942,0.93231,0.93409,0.93393,0.93407
+PSM	DPNTLETLQSFGK	2	null	null	null	null	[MS, MS:1003281, Adanovo]	0.885597570666245	null	null	2.0	725.3606	725.36462981688	ms_run[1]:index=1	null	null	null	null	0.90781,0.92275,0.94194,0.92539,0.71783,0.94261,0.94247,0.94278,0.94278,0.94274,0.46853,0.91946,0.93845
+PSM	SLLLDVVPGDPR	3	null	null	null	null	[MS, MS:1003281, Adanovo]	-0.17127731213202846	null	null	2.0	641.32733	640.8640773168798	ms_run[1]:index=2	null	null	null	null	0.54776,0.78662,0.91420,0.63260,0.91256,0.90571,0.86104,0.90824,0.74811,0.85101,0.87693,0.91426
+PSM	VVLTAPSSSAPMFVVGVSHQK	4	null	null	null	null	[MS, MS:1003281, Adanovo]	0.8884830835529349	null	null	3.0	714.3859	714.38562736688	ms_run[1]:index=3	null	null	null	null	0.84279,0.77396,0.79342,0.94406,0.92889,0.94417,0.94161,0.94423,0.94416,0.94365,0.94424,0.94414,0.94385,0.93952,0.46721,0.94291,0.65312,0.93372,0.94424,0.94424,0.94424
+PSM	AFPC(+57.02)WDEPALK	5	null	null	null	null	[MS, MS:1003281, Adanovo]	-0.09356908251841867	null	null	2.0	668.40155	667.3159063168799	ms_run[1]:index=4	null	null	null	null	0.90396,0.87105,0.64709,0.95140,0.86327,0.92479,0.95137,0.95245,0.95321,0.95215,0.95322
+PSM	TLLGFLR	6	null	null	null	null	[MS, MS:1003281, Adanovo]	0.9779023230075836	null	null	2.0	410.2579	410.25798431688	ms_run[1]:index=5	null	null	null	null	0.98224,0.94737,0.94891,0.98895,0.98892,0.98893,0.98895
+PSM	AYHEQLSVAELTNAC(+57.02)FEPANQM(+15.99)VK	7	null	null	null	null	[MS, MS:1003281, Adanovo]	0.9994925498962403	null	null	3.0	922.7669	922.7669080335468	ms_run[1]:index=6	null	null	null	null	0.99971,0.99952,0.99967,0.99886,0.99811,0.99975,0.99975,0.99975,0.99975,0.99974,0.99975,0.99766,0.99975,0.99975,0.99975,0.99975,0.99899,0.99975,0.99975,0.99914,0.99975,0.99975,0.99974,0.99974
+PSM	LDLFANVVHVK	8	null	null	null	null	[MS, MS:1003281, Adanovo]	0.999424010515213	null	null	2.0	627.8621	627.8638803168799	ms_run[1]:index=7	null	null	null	null	0.99923,0.99741,0.99968,0.99968,0.99971,0.99914,0.99970,0.99971,0.99971,0.99969,0.99971
+PSM	ALMPLLEGHDVLAQAQSGTGK	9	null	null	null	null	[MS, MS:1003281, Adanovo]	0.9144379788671028	null	null	3.0	712.7091	712.7087707002131	ms_run[1]:index=8	null	null	null	null	0.95720,0.95682,0.95720,0.95722,0.95722,0.95527,0.95722,0.94676,0.95722,0.95722,0.95567,0.52634,0.95722,0.95720,0.95721,0.95721,0.95721,0.46144,0.95715,0.95721,0.95722
+PSM	DDLDSNLPNPLR	10	null	null	null	null	[MS, MS:1003281, Adanovo]	0.9356913578051788	null	null	2.0	684.84204	684.8413298168798	ms_run[1]:index=9	null	null	null	null	0.96500,0.58298,0.95188,0.96601,0.96784,0.96784,0.96289,0.96784,0.96677,0.96783,0.96783,0.96142
+PSM	LFDYFPK	11	null	null	null	null	[MS, MS:1003281, Adanovo]	-0.012959666550159454	null	null	2.0	465.29498	465.24200431688	ms_run[1]:index=10	null	null	null	null	0.98087,0.96793,0.98038,0.99351,0.99308,0.99351,0.99352
+PSM	LGGVLLFHETLYQK	12	null	null	null	null	[MS, MS:1003281, Adanovo]	0.9020246177911758	null	null	3.0	539.9733	539.9714837002132	ms_run[1]:index=11	null	null	null	null	0.94950,0.91713,0.54373,0.92925,0.95008,0.95073,0.95095,0.95101,0.95082,0.88575,0.74767,0.95087,0.95100,0.95087
+PSM	GYAFLTFC(+57.02)GK	13	null	null	null	null	[MS, MS:1003281, Adanovo]	0.9986508922143416	null	null	2.0	582.8076	582.28133131688	ms_run[1]:index=12	null	null	null	null	0.99819,0.99317,0.99922,0.99932,0.99932,0.99931,0.99933,0.99933,0.99933,0.99932
+PSM	NVQYSDNQPLVLQSM(+15.99)NEEK	14	null	null	null	null	[MS, MS:1003281, Adanovo]	0.8352304063737392	null	null	3.0	751.68634	751.3548353668799	ms_run[1]:index=13	null	null	null	null	0.90400,0.76814,0.77765,0.91525,0.49793,0.56750,0.91469,0.91759,0.91753,0.91760,0.91761,0.90881,0.45914,0.85451,0.91650,0.88679,0.91459,0.91703,0.91414
+PSM	ELYEEFLK	15	null	null	null	null	[MS, MS:1003281, Adanovo]	-0.03265407350328231	null	null	2.0	536.3107	535.77386531688	ms_run[1]:index=14	null	null	null	null	0.95151,0.96335,0.88928,0.98362,0.98367,0.98367,0.98367,0.98367

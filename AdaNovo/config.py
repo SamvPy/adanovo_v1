@@ -6,7 +6,7 @@ from typing import Optional, Dict, Callable, Tuple, Union
 import yaml
 import torch
 
-import utils
+from . import utils
 
 logger = logging.getLogger("adanovo")
 

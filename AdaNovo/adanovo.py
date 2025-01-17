@@ -19,10 +19,10 @@ import tqdm
 import yaml
 from pytorch_lightning.lite import LightningLite
 
-import utils
-from data import ms_io
-from denovo import model_runner
-from config import Config
+from . import utils
+from .data import ms_io
+from .denovo import model_runner
+from .config import Config
 
 logger = logging.getLogger("adanovo")
 

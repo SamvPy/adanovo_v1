@@ -14,7 +14,7 @@ from torch.utils.tensorboard import SummaryWriter
 from depthcharge.components import ModelMixin, PeptideDecoder, SpectrumEncoder
 
 from . import evaluate
-from data import ms_io
+from ..data import ms_io
 
 logger = logging.getLogger("adanovo")
 
